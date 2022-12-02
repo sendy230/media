@@ -69,8 +69,8 @@ The fastest way to deploy the application is to click the **Deploy to Koyeb** bu
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/Lullaby330/abcd
-cd abcd
+git clone https://github.com/Lullaby330/bo
+cd bo
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
 python3 main.py
