@@ -13,16 +13,16 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5540290423:AAEZvIiO4AqQj7ckwDwKRbB2vZHwvyp2qAo")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "6216349"))
+APP_ID = int(os.environ.get("APP_ID", "6216349")
 
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "5c7418e9f3df6db931caa7354521c55f")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001781268328))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001781268328")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5158607797"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5158607797")
 
 #Port
 PORT = os.environ.get("PORT", "1237")
@@ -32,9 +32,9 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://asubang:asubang@cluster0.
 DB_NAME = os.environ.get("DATABASE_NAME", "asywui")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001820597151"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001820597151")
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nSaya Dapat Menyimpan File Pribadi Dan Pengguna Lain Dapat Mengaksesnya Dari Tautan Khusus.")
