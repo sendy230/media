@@ -1,10 +1,15 @@
+#(©)CodeXBotz
+
+
+
+
 import os
 import logging
 from logging.handlers import RotatingFileHandler
 
 
 
-#Bot token @Botfather
+#Bot token @Botfathera
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5619593995:AAFT3YPpCsd5eOzxjYv-TlGVXBoe_lrOtkc")
 
 #Your API ID from my.telegram.org
@@ -17,17 +22,17 @@ API_HASH = os.environ.get("API_HASH", "5c7418e9f3df6db931caa7354521c55f")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001696659173"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5047866686"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1453626698"))
 
 #Port
-PORT = os.environ.get("PORT", "1129")
+PORT = os.environ.get("PORT", "8908")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://asubang:asubang@cluster0.gbyc7wo.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "bokevterbaik")
+DB_NAME = os.environ.get("DATABASE_NAME", "akupadanya")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001739978661"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001899683984"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -35,7 +40,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nSaya Dapat Menyimpan File Pribadi Dan Pengguna Lain Dapat Mengaksesnya Dari Tautan Khusus.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5047866686 2072769117 2018095690").split()):
+    for x in (os.environ.get("ADMINS", "5047866686 2072769117 2018095690 1850233338").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
