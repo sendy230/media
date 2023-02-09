@@ -25,7 +25,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001821154898"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1850233338"))
 
 #Port
-PORT = os.environ.get("PORT", "1329")
+PORT = os.environ.get("PORT", "2020")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://akusiapa:akusiapa@cluster0.3rh8jbk.mongodb.net/?retryWrites=true&w=majority")
@@ -40,7 +40,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nSaya Dapat Menyimpan File Pribadi Dan Pengguna Lain Dapat Mengaksesnya Dari Tautan Khusus.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1850233338 5250750324").split()):
+    for x in (os.environ.get("ADMINS", "5047866686").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
