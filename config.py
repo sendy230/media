@@ -64,7 +64,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌ Jangan Kirimi Saya Pesan Secara Langsung. Saya Hanya Bisa Digunakan Admin channel!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(1850233338)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
